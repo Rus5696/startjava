@@ -1,0 +1,20 @@
+public class Variable {
+	public static void main(String[] args) {
+		char cpu1 = 'i';
+		char cpu2 = '3';
+		byte ozu = 4;
+		int hdd = 500;
+		float gz = 2.30f;
+		double core = 2;
+		short typeSystem = 64;
+		long versionWin = 10;
+
+		System.out.println("Процессор:" + cpu1 + cpu2);
+		System.out.println("ОЗУ:" + ozu + "гб");
+		System.out.println("Частота:" + gz + "Gz");
+		System.out.println("Кол-во ядер:" + core);
+		System.out.println("Жесткий:" + hdd + "гб");
+		System.out.println("Тип системы" + typeSystem);
+		System.out.println("Версия Windows-" + versionWin);
+	}
+}
