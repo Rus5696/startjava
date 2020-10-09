@@ -19,10 +19,10 @@ public class ConditionalStatement {
 			System.out.println("no");
 		}
 		if(firstLetterOfName == 'M') {
-    System.out.println("yes");
-} else if(firstLetterOfName == 'I') {
-    System.out.println("no");
-} else {
-    System.out.println("UPS"); }
+                    System.out.println("yes");
+}               else if(firstLetterOfName == 'I') {
+                    System.out.println("no");
+}               else {
+                    System.out.println("UPS"); }
 }
 }
