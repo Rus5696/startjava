@@ -7,7 +7,7 @@ public class Variable {
 		double core = 2;
 		short typeSystem = 64;
 		long versionWin = 10;
-		boolean laptop = true;
+		boolean isLaptop = true;
 
 		System.out.println("Процессор: i" + cpu);
 		System.out.println("ОЗУ:" + ram + "гб");
@@ -16,6 +16,6 @@ public class Variable {
 		System.out.println("Жесткий:" + hdd + "гб");
 		System.out.println("Тип системы" + typeSystem);
 		System.out.println("Версия Windows-" + versionWin);
-		System.out.println("Laptop " + laptop);
+		System.out.println("Laptop " + isLaptop);
 }
 }
