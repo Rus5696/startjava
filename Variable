@@ -3,8 +3,12 @@ public class Variable {
 		String proc = "Intel Core i3-7020u";
 		byte ozu = 4;
 		int mem = 500;
+		float chst = 2.30f;
+		double yad = 2;
 		System.out.println("Процессор:"+proc);
 		System.out.println("ОЗУ:"+ozu+"гб");
+		System.out.println("Частота:"+chst+"Gz");
+		System.out.println("Кол-во ядер:"+yad);
 		System.out.println("Жесткий:"+mem+"гб");
 	}
 }
